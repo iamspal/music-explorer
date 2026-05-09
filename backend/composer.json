@@ -1,0 +1,41 @@
+{
+    "name": "music-explorer/backend",
+    "description": "Music Explorer API backend (Deezer proxy)",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.7",
+        "guzzlehttp/guzzle": "^7.9",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.11",
+        "phpstan/phpstan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.68",
+        "phpunit/phpunit": "^12.5"
+    },
+    "scripts": {
+        "lint": "phpcs --standard=phpcs.xml src/ public/",
+        "lint:fix": "phpcbf --standard=phpcs.xml src/ public/",
+        "format": "php-cs-fixer fix --config=.php-cs-fixer.dist.php src/ public/",
+        "format:check": "php-cs-fixer fix --config=.php-cs-fixer.dist.php --dry-run src/ public/",
+        "analyse": "phpstan analyse -c phpstan.neon",
+        "check": [
+            "@lint",
+            "@format:check",
+            "@analyse"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}

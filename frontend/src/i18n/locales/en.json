@@ -1,0 +1,115 @@
+{
+  "common": {
+    "unknownArtist": "Unknown Artist",
+    "musicExplorer": "Music Explorer",
+    "play": "Play",
+    "pause": "Pause",
+    "playAll": "Play all",
+    "home": "Home",
+    "search": "Search",
+    "favorites": "Favorites",
+    "album": "Album",
+    "artist": "Artist",
+    "playlist": "Playlist",
+    "track": "Track",
+    "tracks": "Tracks",
+    "albums": "Albums",
+    "artists": "Artists",
+    "playlists": "Playlists",
+    "nTracks": "{n} tracks",
+    "nSongs": "{n} songs",
+    "nFollowers": "{n} followers"
+  },
+  "home": {
+    "featuredPlaylists": "Featured Playlists",
+    "trendingTracks": "Trending Tracks",
+    "popularAlbums": "Popular Albums",
+    "trendingArtists": "Trending Artists"
+  },
+  "search": {
+    "placeholder": "What do you want to listen to?",
+    "errorMessage": "Search failed. Please try again.",
+    "emptyTitle": "Search for music",
+    "emptyDescription": "Find your favorite tracks, albums, artists, and playlists.",
+    "noResultsTitle": "No {tab}s found",
+    "noResultsDescription": "We couldn't find any {type}s matching \"{query}\"."
+  },
+  "favorites": {
+    "pageTitle": "Your Favorites",
+    "emptyTitle": "No favorites yet",
+    "emptyDescription": "Save tracks you love by clicking the heart icon. They'll appear here for quick access."
+  },
+  "notFound": {
+    "heading": "Page not found",
+    "description": "We can't seem to find the page you're looking for. Try going back to the home page.",
+    "goHome": "Go Home"
+  },
+  "player": {
+    "noTrackPlaying": "No track playing",
+    "selectTrackToPlay": "Select a track to play",
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites",
+    "toggleShuffle": "Toggle shuffle",
+    "previousTrack": "Previous track",
+    "nextTrack": "Next track",
+    "repeatOne": "Repeat one",
+    "repeatAll": "Repeat all",
+    "repeatOff": "Repeat off",
+    "seek": "Seek",
+    "unmute": "Unmute",
+    "mute": "Mute",
+    "volume": "Volume"
+  },
+  "album": {
+    "label": "Album",
+    "playAll": "Play all"
+  },
+  "artist": {
+    "label": "Artist",
+    "nFollowers": "{n} followers",
+    "topTracks": "Top Tracks",
+    "albums": "Albums",
+    "relatedArtists": "Related Artists",
+    "subtitle": "Artist"
+  },
+  "playlist": {
+    "label": "Playlist",
+    "playAll": "Play all",
+    "nTracks": "{n} tracks"
+  },
+  "layout": {
+    "skipToContent": "Skip to content",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Collapse sidebar",
+    "goBack": "Go back",
+    "goForward": "Go forward",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu"
+  },
+  "music": {
+    "playTrack": "Play track",
+    "playAlbum": "Play album",
+    "playPlaylist": "Play playlist",
+    "nTracks": "{n} tracks",
+    "unknownArtist": "Unknown Artist",
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites",
+    "noTracksFound": "No tracks found",
+    "numberSign": "#",
+    "title": "Title",
+    "artistSubtitle": "Artist"
+  },
+  "ui": {
+    "searchPlaceholder": "Search...",
+    "clearSearch": "Clear search",
+    "emptyTitle": "Nothing to show",
+    "errorHeading": "Oops!",
+    "errorDefault": "Something went wrong. Please try again.",
+    "tryAgain": "Try again",
+    "scrollLeft": "Scroll left",
+    "scrollRight": "Scroll right"
+  },
+  "api": {
+    "unexpectedError": "An unexpected error occurred"
+  }
+}

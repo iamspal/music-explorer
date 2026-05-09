@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-spotify-green: #1db954;
+  --color-spotify-green-light: #1ed760;
+  --color-spotify-black: #121212;
+  --color-spotify-card: #181818;
+  --color-spotify-surface: #282828;
+  --color-spotify-surface-light: #333333;
+  --color-spotify-text-primary: #ffffff;
+  --color-spotify-text-secondary: #b3b3b3;
+  --color-spotify-text-tertiary: #6a6a6a;
+}

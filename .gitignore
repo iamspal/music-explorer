@@ -1,0 +1,17 @@
+# Docker
+.env
+*.log
+
+# Node
+node_modules/
+dist/
+.DS_Store
+.claude
+
+# PHP
+vendor/
+*.log
+
+# IDE
+.vscode/
+.idea/

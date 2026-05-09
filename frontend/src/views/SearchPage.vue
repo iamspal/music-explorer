@@ -22,8 +22,11 @@
       </button>
     </div>
 
-    <!-- Loading -->
-    <LoadingSkeleton v-if="isLoading" :count="8" type="card" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4" />
+    <!-- Loading: tracks are list-style -->
+    <LoadingSkeleton v-if="isLoading && activeTab === 'track'" :count="8" type="list" class="space-y-0.5" />
+
+    <!-- Loading: albums, artists, playlists are card-style -->
+    <LoadingSkeleton v-else-if="isLoading" :count="8" type="card" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4" />
 
     <!-- Error -->
     <ErrorState
